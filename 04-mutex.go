@@ -30,5 +30,4 @@ func main() {
 }
 
 //go run -race <>
-//GOMAXPROCS=1
-go run -race main.go
+//GOMAXPROCS=1 go run -race <>
