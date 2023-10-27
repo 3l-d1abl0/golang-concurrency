@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"sync"
+	"time"
 	//"time"
 )
 
@@ -19,7 +20,7 @@ func main() {
 		wg.Done()
 	}()
 
-	//time.Sleep(time.Second)
+	time.Sleep(time.Second)
 
 	message := <-channel
 	fmt.Println(message)
